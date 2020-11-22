@@ -1,0 +1,6 @@
+<div>
+  <h1>My Blog</h1>
+  <div v-for="post in posts">
+    <a v-bind:href="post.dest" v-text="post.title">Sample Title</a>
+  </div>
+</div>
